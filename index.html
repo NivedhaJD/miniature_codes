@@ -1,0 +1,50 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Basics Starter Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Cyber Safety Starter</h1>
+      <p>A beginner-friendly cybersecurity mini project with practical habits and a self-check quiz.</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Top 5 Daily Security Habits</h2>
+        <ul>
+          <li>Use a unique password for every account.</li>
+          <li>Turn on multi-factor authentication (MFA).</li>
+          <li>Never click unknown email links without checking the sender.</li>
+          <li>Update your OS and apps regularly.</li>
+          <li>Back up important files weekly.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Quick Phishing Self-Check</h2>
+        <p>Select the suspicious signs you notice in a fake email scenario.</p>
+
+        <div class="question">
+          <label><input type="checkbox" value="sender" /> Sender email looks misspelled</label>
+          <label><input type="checkbox" value="urgent" /> Message says "urgent, act now"</label>
+          <label><input type="checkbox" value="link" /> Link goes to an unrelated domain</label>
+          <label><input type="checkbox" value="grammar" /> Obvious grammar mistakes</label>
+          <label><input type="checkbox" value="logo" /> Company logo is present</label>
+        </div>
+
+        <button id="checkBtn">Check My Answers</button>
+        <p id="result" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer>
+      <small>Built by a CSE Cyber Security & Digital Forensics student 🚀</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
